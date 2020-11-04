@@ -180,7 +180,7 @@ public class Login extends JFrame {
 							else {
 								if(usuario.equals("cliente")){
 									cnxBD.conectarClienteBD();
-									JOptionPane.showMessageDialog(this,"Se conecto exitosamente como usuario cliente." ,"Coneccion Exitosa!", JOptionPane.INFORMATION_MESSAGE);
+									JOptionPane.showMessageDialog(this,"Se conecto exitosamente como usuario cliente." ,"Conexion Exitosa!", JOptionPane.INFORMATION_MESSAGE);
 									this.dispose();
 								}
 								else {
